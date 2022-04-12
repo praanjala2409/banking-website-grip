@@ -160,9 +160,6 @@ app.get("/customers", function (req, res) {
 });
 
 
-
-
-
 app.get("/customers/:individualcustomer", function (req, res) {
 
   const requestedCustomer=req.params.individualcustomer;
@@ -265,3 +262,4 @@ app.get("/transactions", function (req, res) {
 app.listen(3000, function () {
     console.log("server running at 3000");
 })
+
